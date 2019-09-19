@@ -5,6 +5,7 @@ function MainImg() {
   return (
     <div>
       <div id="heroImgDiv">
+          <img src="./images/greenCircle.png"  id ="greenCircle" alt="greenCircle logo" />
         <h1 id="mainHeading"> Go Green</h1>
         <h2>The Garden & Organic Store</h2>
         <h3>Quality, Value and Service</h3>

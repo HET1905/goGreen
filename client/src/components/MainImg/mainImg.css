@@ -18,7 +18,10 @@
     text-align: center;
     letter-spacing: 2px;
     /* position: relative; */
-    padding-top: 100px;
+    /* margin:auto auto; */
+    margin-top: 120px;
+    margin-left: 10px;
+    display: inline-block;
 
     text-shadow: 0 1px 0 rgb(66, 4, 160),
     0 2px 0 #2a2929,
@@ -35,7 +38,8 @@
 }
 
 #heroImgDiv h2,h3{
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 42%;
     font-family: 'Patua One', cursive;
     
 }
@@ -51,3 +55,24 @@
     text-align: center;
     
 }
+#greenCircle{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 35%;
+    display: inline-block;
+    /* z-index: 5; */
+    animation: logo-spin infinite 10s linear;
+
+}
+
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
