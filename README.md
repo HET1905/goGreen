@@ -8,4 +8,4 @@ Work is in progress...not finished yet..
 
 ## Screen Shots
 
-[Main Page](https://github.com/HET1905/goGreen/blob/master/images/goGreen1.PNG "Main Page")
+![Main Page](https://github.com/HET1905/goGreen/blob/master/images/goGreen1.PNG "Main Page")
