@@ -1,0 +1,22 @@
+#heroImgDiv{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    /* position: relative; */
+    border-bottom: 2px solid #000;
+    background: #05980f url('./images/branchGreen.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+#mainHeading{
+    font-size: 5em;
+    color: #B2D2A4;
+    font-family: 'Patua One', cursive;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 2px;
+    /* position: relative; */
+    padding-top: 100px;
+}

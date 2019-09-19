@@ -1,0 +1,17 @@
+.topNavbar{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding:0;
+}
+
+.topNavbar a{
+    color: #fff;
+}
+
+.topNavbar a:hover{
+    color: rgb(122, 245, 22);
+}
