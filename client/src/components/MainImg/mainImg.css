@@ -1,27 +1,24 @@
 #heroImgDiv{
     width: 100%;
-    min-height: 700px;
+    min-height: 850px;
     height: auto;
     /* position: relative; */
     border-bottom: 2px solid #000;
     background: #05980f url('./images/branchGreen.jpg');
     background-position: center;
     background-attachment: fixed;
-    background-size: cover
+    background-size: cover;
 }
 
 #mainHeading{
-    font-size: 5em;
+    font-size: 8em;
     color: rgb(2, 95, 39);
-    font-family: 'Patua One', cursive;
     font-weight: bolder;
-    text-align: center;
     letter-spacing: 2px;
     /* position: relative; */
     /* margin:auto auto; */
-    margin-top: 120px;
-    margin-left: 10px;
-    display: inline-block;
+   
+    /* display: inline-block; */
 
     text-shadow: 0 1px 0 rgb(66, 4, 160),
     0 2px 0 #2a2929,
@@ -36,35 +33,39 @@
     0 10px 10px rgba(0,0,0,.2),
     0 20px 20px rgba(0,0,0,.15); */
 }
+#mainPageHeadings{
+    padding-top: 100px;
+}
 
-#heroImgDiv h2,h3{
-    /* text-align: center; */
-    margin-left: 42%;
+#mainPageHeadings h1,h2,h3{
+    text-align: center;
     font-family: 'Patua One', cursive;
-    
 }
 #mainPageText{
     height: 150px;
-    background-color: #446246;
+    position: fixed;;
+    bottom: 0px;
+    left: 0;
+    background-color: #44624651;
 }
 
 #mainPageText p{
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding:1%;
     color: #ebe7e7;
     text-align: center;
     
 }
-#greenCircle{
+/* #greenCircle{
     width: 150px;
     height: 150px;
     margin-top: 10px;
     margin-left: 35%;
     display: inline-block;
     /* z-index: 5; */
-    animation: logo-spin infinite 10s linear;
+    /* animation: logo-spin infinite 10s linear;} */
 
-}
+
 
 
 @keyframes logo-spin {
