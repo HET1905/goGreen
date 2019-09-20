@@ -5,7 +5,7 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-light topNavbar" style={{ "backgroundColor": "#1A4314" }}>
+    <nav className="navbar navbar-light topNavbar" >
       <ul className="navbar nav ml-auto">
         <li className="nav-item active">
           <Link to="/" className="nav-link">

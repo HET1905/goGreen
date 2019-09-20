@@ -1,6 +1,6 @@
 #heroImgDiv{
     width: 100%;
-    min-height: 850px;
+    min-height: 800px;
     height: auto;
     /* position: relative; */
     border-bottom: 2px solid #000;
@@ -8,6 +8,7 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    /* overflow: auto; */
 }
 
 #mainHeading{
@@ -20,35 +21,37 @@
    
     /* display: inline-block; */
 
-    text-shadow: 0 1px 0 rgb(66, 4, 160),
+    text-shadow: 0 1px 0 rgb(239, 238, 241),
     0 2px 0 #2a2929,
     0 3px 0 #bbb,
     0 4px 0 #ebe7e7,
     0 5px 0 #aaa,
      0 6px 1px rgba(0,0,0,.1),
     0 0 5px rgba(0,0,0,.1),
-    0 1px 3px rgba(0,0,0,.3);
+    0 1px 3px rgba(0,0,0,.3),
     /*0 3px 5px rgba(0,0,0,.2),
     0 5px 10px rgba(0,0,0,.25)
-    0 10px 10px rgba(0,0,0,.2),
-    0 20px 20px rgba(0,0,0,.15); */
+    0 10px 10px rgba(0,0,0,.2),*/
+    0 20px 20px rgba(0,0,0,.15); 
 }
 #mainPageHeadings{
     padding-top: 100px;
 }
 
-#mainPageHeadings h1,h2,h3{
-    text-align: center;
+#heroImgDiv h1,h2,h3{
+    /* text-align: center; */
     font-family: 'Patua One', cursive;
 }
 #mainPageText{
     height: 150px;
-    position: fixed;;
-    bottom: 0px;
-    left: 0;
+    /* position: fixed;; */
+    /* bottom: 0px;
+    left: 0; */
     background-color: #44624651;
 }
-
+#headingRow{
+    height: 600px;
+}
 #mainPageText p{
     font-size: 1.8em;
     padding:1%;

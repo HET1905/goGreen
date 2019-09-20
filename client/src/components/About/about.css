@@ -1,0 +1,35 @@
+#aboutUsPage{
+    background: rgba(4, 194, 33, 0.585) url('./images/aboutBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    min-height:900px ;
+    
+}
+#aboutRow{
+    padding-top: 80px;
+    background: rgba(191, 241, 213, 0.7);
+    min-height: 900px;
+    font-weight: bold;
+}
+#aboutRow h1,h2{
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Patua One', cursive;
+}
+#aboutRow h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#aboutRow p{
+    font-size: 1.2em;
+}
+#aboutImg{
+    border:2px solid #000;
+    box-shadow: 3px 4px 3px #000;
+    width: 80%;
+    height: 80%;
+    /* margin:auto auto; */
+    border-radius: 5px;
+}
