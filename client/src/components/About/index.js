@@ -17,7 +17,7 @@ function About() {
           <div id="firstPara">
             <h2>Eat Clean, Live Healthy</h2>
             <p>
-              Go Green the Garden and Organic store is an initiative to provide
+              <strong>Go Green </strong> the Garden and Organic store is an initiative to provide
               quality Organic food, Gardening and environment education related
               products at Ankleshwar area. The store is located at prime
               business hub on Valia road a fastest growing business location.
