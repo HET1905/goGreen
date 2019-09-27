@@ -1,64 +1,69 @@
-#heroImgDiv{
-    width: 100%;
-    min-height: 800px;
-    height: auto;
-    /* position: relative; */
+#heroImgDiv {
     border-bottom: 2px solid #000;
     background: #05980f url('./images/branchGreen.jpg');
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    /* overflow: auto; */
 }
 
-#mainHeading{
+#heroImgDiv h1,
+h2,
+h3 {
+    font-family: 'Patua One', cursive;
+}
+
+/* This will set the height of main img  */
+#headingRow {
+    height: 100vh;
+}
+
+/* Div containing all headings */
+#mainPageHeadingsDiv {
+    padding-top: 100px;
+}
+
+#mainHeading {
     font-size: 8em;
     color: rgb(2, 95, 39);
     font-weight: bolder;
     letter-spacing: 2px;
-    /* position: relative; */
-    /* margin:auto auto; */
-   
-    /* display: inline-block; */
 
+    /* For shadow */
     text-shadow: 0 1px 0 rgb(239, 238, 241),
-    0 2px 0 #2a2929,
-    0 3px 0 #bbb,
-    0 4px 0 #ebe7e7,
-    0 5px 0 #aaa,
-     0 6px 1px rgba(0,0,0,.1),
-    0 0 5px rgba(0,0,0,.1),
-    0 1px 3px rgba(0,0,0,.3),
-    /*0 3px 5px rgba(0,0,0,.2),
+        0 2px 0 #2a2929,
+        0 3px 0 #bbb,
+        0 4px 0 #ebe7e7,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        /*0 3px 5px rgba(0,0,0,.2),
     0 5px 10px rgba(0,0,0,.25)
     0 10px 10px rgba(0,0,0,.2),*/
-    0 20px 20px rgba(0,0,0,.15); 
-}
-#mainPageHeadings{
-    padding-top: 100px;
+        0 20px 20px rgba(0, 0, 0, .15);
 }
 
-#heroImgDiv h1,h2,h3{
-    /* text-align: center; */
-    font-family: 'Patua One', cursive;
-}
-#mainPageText{
-    height: 150px;
-    /* position: fixed;; */
-    /* bottom: 0px;
-    left: 0; */
-    background-color: #44624651;
-}
-#headingRow{
-    height: 600px;
-}
-#mainPageText p{
-    font-size: 1.8em;
-    padding:1%;
+#mainPageText {
+    height: 350px;
     color: #ebe7e7;
-    text-align: center;
+    padding: 30px 50px 10px 50px;
+    /* background-image: linear-gradient(to left bottom, #68a501, #559112, #457c19, #36681b, #2a551b); */
+    background: rgba(42, 85, 27, 0.9);
     
+
 }
+
+
+#mainPageText p {
+    font-size: 1.8em;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    /* padding:1%; */
+    /* color: #ebe7e7; */
+    text-align: center;
+
+}
+
 /* #greenCircle{
     width: 150px;
     height: 150px;
@@ -66,17 +71,62 @@
     margin-left: 35%;
     display: inline-block;
     /* z-index: 5; */
-    /* animation: logo-spin infinite 10s linear;} */
+/* animation: logo-spin infinite 10s linear;} */
 
 
 
 
 @keyframes logo-spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background: red;
+    }
+    /* .navbar {
+        padding:0;
+        justify-content: flex-start;
+        font-size: 0.9em;
+    }
+    .topNavbar{
+        height: 90px;
+    } */
+   
+    #mainHeading {
+        font-size: 4.5em;
+    }
+
+    #headingRow {
+        color: #1b1b1b;
+        padding-top: 100px;
+    }
+
+    #mainPageText {
+        height: 70vh;
+        padding: 20px 5px 5px 5px;
+    }
+    #mainPageText h1{
+        font-size: 2em;
+    }
+    #mainPageText p {
+        font-size: 1.2em;
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    #mainPageText p {
+        font-size: 1em;
+    }
+    #mainPageText h1{
+        font-size: 1.5em;
+    }
+}

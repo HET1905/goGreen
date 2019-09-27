@@ -5,9 +5,9 @@ function MainImg() {
   return (
     <div id="heroImgDiv" className="container-fluid">
       <div className="row" id="headingRow">
-        <div className="col-12 col-sm-12" id="mainPageHeadings">
+        <div className="col-12 col-sm-12" id="mainPageHeadingsDiv">
           <h1 id="mainHeading" className="text-center">
-            {" "}
+            
             Go Green
           </h1>
           <h2 className="text-center">The Garden & Organic Store</h2>
@@ -22,6 +22,7 @@ function MainImg() {
       </div> */}
       <div className="row">
         <div className="col-12 col-sm-12" id="mainPageText">
+          <h1 className="text-center">Welcome To Go Green</h1>
           <p>
             Go Green” is your convenient source for premium quality organic food
             and garden supply. Most items are available as all natural, organic
@@ -31,15 +32,7 @@ function MainImg() {
           </p>
         </div>
       </div>
-      {/* <div id="mainPageText">
-        <p>
-          Go Green” is your convenient source for premium quality organic food
-          and garden supply. Most items are available as all natural, organic
-          and handmade. We offer many choices of flavors, sizes, and
-          combinations. Organic food is not only delicious, it is also bursting
-          with great nutrition!
-        </p>
-      </div> */}
+      
     </div>
   );
 }
