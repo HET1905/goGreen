@@ -1,11 +1,30 @@
-#aboutUsPage{
+#aboutUsPageHeroDiv{
     background: rgba(4, 194, 33, 0.585) url('./images/aboutBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* height: 30vh; */
+    min-height:300px ;
     
-    min-height:900px ;
-    
+}
+.card{
+    background: transparent;
+    border: none;
+}
+#aboutUsPageHeroDiv h1{
+    padding-top: 100px;
+    color: #ededed;
+    font-size: 5em;
+    font-family: 'Patua One', cursive;
+}
+.seperatorLine{
+    height: 1px;
+    border-top: 2px solid #ebebeb;
+    display: block;
+    position: relative;
+    /* top: 101px; */
+    left: 46%;
+    width: 80px;
 }
 #aboutRow{
     padding-top: 80px;
@@ -32,4 +51,5 @@
     height: 80%;
     /* margin:auto auto; */
     border-radius: 5px;
+    margin:auto auto;
 }

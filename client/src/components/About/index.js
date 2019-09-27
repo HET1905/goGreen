@@ -3,17 +3,23 @@ import "./about.css";
 
 function About() {
   return (
-    <div id="aboutUsPage" className="container-fluid">
+    <div className="container-fluid">
+      <div id="aboutUsPageHeroDiv" className="row">
+        <div className="col-12">
+        <h1 className="text-center">About Us</h1>
+        <span className="text-center seperatorLine"></span>
+        </div>
+      </div>
       <div className="row" id="aboutRow">
         <div className="col-12 col-sm-5">
-          <div id="imgDiv">
+          <div id="imgDiv" className="card">
             <img id="aboutImg" src="images/about1.PNG" alt="aboutImg" />
           </div>
         </div>
         <div className="col-12 col-sm-7">
-          <div id="heading">
+          {/* <div id="heading">
             <h1>About Us</h1>
-          </div>
+          </div> */}
           <div id="firstPara">
             <h2>Eat Clean, Live Healthy</h2>
             <p>

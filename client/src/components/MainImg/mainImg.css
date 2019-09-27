@@ -58,7 +58,15 @@ h3 {
 }
 #mainPageText h1{
     padding-bottom: 140px;
+    font-size: 3em;
+    text-decoration: underline;
+    text-decoration-color: #71a901;
+    /* text-decoration-style: wavy; */
 }
+/* #mainPageText h1::after{
+    content: " ";
+    text-decoration:underline;
+} */
 
 
 #mainPageText p {
@@ -121,7 +129,6 @@ h3 {
     }
     #mainPageText h1{
         font-size: 2em;
-        padding:0;
     }
     #mainPageText p {
         font-size: 1.2em;
