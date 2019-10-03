@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
 import "./about.css";
 
 function About() {
@@ -6,10 +8,57 @@ function About() {
     <div className="container-fluid">
       <div id="aboutUsPageHeroDiv" className="row">
         <div className="col-12">
-        <h1 className="text-center">About Us</h1>
-        <span className="text-center seperatorLine"></span>
+          <h1 className="text-center">About Us</h1>
+          <span className="text-center seperatorLine"></span>
         </div>
       </div>
+      <div className="row" id="carousel">
+        <div className="col-12">
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./images/organic1-large.JPG?text=First slide&bg=373940"
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./images/organic3.JPG?text=Second slide&bg=282c34"
+                alt="Second slide"
+              />
+
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./images/organic4.PNG?text=Third slide&bg=20232a"
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
+      </div>
+
       <div className="row" id="aboutRow">
         <div className="col-12 col-sm-5">
           <div id="imgDiv" className="card">
@@ -23,14 +72,14 @@ function About() {
           <div id="firstPara">
             <h2>Eat Clean, Live Healthy</h2>
             <p>
-              <strong>Go Green </strong> the Garden and Organic store is an initiative to provide
-              quality Organic food, Gardening and environment education related
-              products at Ankleshwar area. The store is located at prime
-              business hub on Valia road a fastest growing business location.
-              Our main objective is to provide marketing outlets to farmers and
-              rural producer engaged in organic food production and rural
-              artisans to their handicrafts items along with the environment
-              friendly gardening products.
+              <strong>Go Green </strong> the Garden and Organic store is an
+              initiative to provide quality Organic food, Gardening and
+              environment education related products at Ankleshwar area. The
+              store is located at prime business hub on Valia road a fastest
+              growing business location. Our main objective is to provide
+              marketing outlets to farmers and rural producer engaged in organic
+              food production and rural artisans to their handicrafts items
+              along with the environment friendly gardening products.
             </p>
           </div>
           <div id="secondPara">

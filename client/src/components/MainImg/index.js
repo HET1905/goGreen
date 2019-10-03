@@ -36,12 +36,12 @@ function MainImg() {
       </div> */}
       <div className="row">
         <div className="col-12 col-sm-12" id="mainPageText">
-          <ScrollAnimation animateIn="fadeInDown" duration="2">
+          <ScrollAnimation animateIn="fadeInDown">
             <h1 className="text-center" style={popInStyle}>
               Welcome To Go Green
             </h1>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" duration="1">
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn">
             <p>
               Go Green” is your convenient source for premium quality organic
               food and garden supply. Most items are available as all natural,

@@ -1,23 +1,27 @@
-#aboutUsPageHeroDiv{
-    background: rgba(4, 194, 33, 0.585) url('./images/aboutBack.jpg');
+#aboutUsPageHeroDiv {
+    /* background: rgba(4, 194, 33, 0.585) url('./images/aboutBack.jpg'); */
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /* height: 30vh; */
-    min-height:300px ;
-    
+    min-height: 150px;
+
 }
-.card{
+
+.card {
     background: transparent;
     border: none;
 }
-#aboutUsPageHeroDiv h1{
-    padding-top: 100px;
+
+#aboutUsPageHeroDiv h1 {
+    padding-top: 80px;
     color: #ededed;
     font-size: 5em;
     font-family: 'Patua One', cursive;
 }
-.seperatorLine{
+
+.seperatorLine {
     height: 1px;
     border-top: 2px solid #ebebeb;
     display: block;
@@ -26,30 +30,84 @@
     left: 46%;
     width: 80px;
 }
-#aboutRow{
+
+#aboutRow {
     padding-top: 80px;
-    background: rgba(191, 241, 213, 0.7);
+    /* background: rgba(191, 241, 213, 0.7); */
+    background-image: linear-gradient(to left, #3c5903, #496c03, #567f03, #639303, #70a802);
     min-height: 900px;
     font-weight: bold;
 }
-#aboutRow h1,h2{
+
+#aboutRow h1,
+h2 {
     text-align: left;
     margin-top: 10px;
     font-family: 'Patua One', cursive;
 }
-#aboutRow h2{
+
+#aboutRow h2 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-#aboutRow p{
+
+#aboutRow p {
     font-size: 1.2em;
 }
-#aboutImg{
-    border:2px solid #000;
+
+#aboutImg {
+    border: 2px solid #000;
     box-shadow: 3px 4px 3px #000;
     width: 80%;
     height: 80%;
     /* margin:auto auto; */
     border-radius: 5px;
-    margin:auto auto;
+    margin: auto auto;
+}
+
+/* For Carousel */
+
+.carousel {
+    width: 100%;
+    padding: 10px 0;
+    /* height: 200px; */
+    margin: auto auto;
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+#carousel .col-12 {
+    background-image: linear-gradient(to left, #3c5903, #496c03, #567f03, #639303, #70a802);
+}
+
+/* .carousel-indicators {
+    width: 50%;
+    margin-right: 0;
+    margin-left: 10px
+} */
+
+.w-100 {
+    height: 400px;
+    /* padding: 10px 0; */
+}
+
+.carousel-inner {
+    width: 90%;
+    margin: auto auto;
+}
+
+.carousel-item {
+    width: 90%;
+    /* margin: auto auto; */
+}
+
+.carousel img {
+    size: cover;
+}
+
+.carousel-control-next {
+    width: 40%;
+}
+
+.carousel-control-prev {
+    width: 30%;
 }
