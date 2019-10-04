@@ -18,7 +18,7 @@ function About() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="images/organic1-large.JPG"
+                src="images/organic1-large.jpg"
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -31,7 +31,7 @@ function About() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="images/organic3.JPG"
+                src="images/organic3.jpg"
                 alt="Second slide"
               />
 
@@ -43,7 +43,7 @@ function About() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="images/organic4.PNG"
+                src="images/organic4.png"
                 alt="Third slide"
               />
 
