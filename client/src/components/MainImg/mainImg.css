@@ -110,7 +110,7 @@ h3 {
 
     #heroImgDiv {
         border-bottom: 2px solid #000;
-        background: #05980f url('./images/smallBranchGreen.jpg');
+        background: #05980f url('images/smallBranchGreen.jpg');
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
